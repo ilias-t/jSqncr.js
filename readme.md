@@ -1,7 +1,9 @@
-# jSqncr
-![jSqncr icon](http://i.imgur.com/oOeNcmb.jpg =200x);
+# jSqncr.js
+-----
 ## Overview
 **jSqncr**, an ultra-easy, lightweight, and powerful way to buffer and play audio files in your browser!
+
+![jSqncr icon](http://i.imgur.com/oOeNcmb.jpg =100x);
 ## Setup
 Run jSqncr.js in or codebase so you have access to the jSqncr object in the global namespace.
 ## Your First Sound
