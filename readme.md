@@ -1,7 +1,7 @@
 # jSqncr.js
 -----
 ## Overview
-**jSqncr**, an ultra-easy, lightweight, and powerful way to buffer and play audio files in your browser!
+**jSqncr**, the best way to buffer and play audio files in your browser!
 
 ![jSqncr icon](http://i.imgur.com/oOeNcmb.jpg =100x);
 ## Setup
