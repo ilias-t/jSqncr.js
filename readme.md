@@ -42,7 +42,7 @@ Due to the nature of Javascript you will have to wait until the initialize funct
 Major credit goes to the makers of the HTML5 audio library and the folks below who's colaboration on this [music sequencer](jSequencr.herokuapp.com) helped inspire this project.
 
 * [Grander Abuhoff](http://github.com/cranbury)
-* [Drew Tunney](http://github.com/Tunneylax20)
+* [Drew Tunney](http://github.com/drewtunney)
 * [Steven Weiss](http://github.com/stevenaweiss)
 * [Zach Brady](http://github.com/zzzbra)
 
