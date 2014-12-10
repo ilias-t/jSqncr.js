@@ -1,7 +1,9 @@
 # jSqncr.js
 -----
 ## Overview
-**jSqncr**, the best way to buffer and play audio files in your browser!
+
+**Update:** This solution is now outdate and can be solved by directly accessing the [HTML5 Audio element](http://www.w3.org/TR/html/embedded-content-0.html#the-audio-element).
+**jSqncr**, buffer and play audio files with javascript
 
 ![jSqncr icon](http://i.imgur.com/oOeNcmb.jpg =100x);
 ## Setup
