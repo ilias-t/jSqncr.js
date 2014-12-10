@@ -7,21 +7,9 @@
 
 ![jSqncr icon](http://i.imgur.com/oOeNcmb.jpg =100x);
 ## Setup
-Run jSqncr.js in or codebase so you have access to the jSqncr object in the global namespace.
-## Your First Sound
-For convenience, I've hardcoded one sound into the library, which you may overwrite later. Let's first get this sound playing to ensure everything is working correctly. For now I suggest pasting jSqncr.js into your console for demonstration purposes.
-
-Once you have access to jSqncr, you must initialize the existing sounds (there is only one at this point):
-
-	jSqncr.initialize();
-
-Now, you have access to the sound and can play it (the loaded sound's key is "that's awesome"):
-	
-	jSqncr.play("that's awesome");
-
-Did you hear it? If so, that mean's your ready to start linking to your own sounds either remote or local.
+Include the the jSquncr.js in your project.
 ## Customizing your sounds
-After loading the library, you will have access to jSqncr.sounds, which is an object that stores keys, which are your sound titles, and an associated value, which is the location of the sound. For example:
+Once the library is loaded, you will have access to jSqncr.sounds, a key-value store for semantic sound triggers. For example:
 
     jSqncr.sounds = {
       "kick": "http://www.examplesounds.com/kick.wav",
@@ -29,7 +17,7 @@ After loading the library, you will have access to jSqncr.sounds, which is an ob
       "clap": "../clappityclap.aac"    
   	};
 
-Everytime you either update the sounds or refresh the page, don't forget to:
+On page load or when adding sounds to your key-value store, you can then buffer (aka load into memory) your audio files from their sources by calling:
 
 	jSqncr.initialize();
 
