@@ -1,12 +1,10 @@
 # jSqncr.js
 -----
-## Overview
 
-###Update: This solution is now outdate and can be solved by directly accessing the [HTML5 Audio element](http://www.w3.org/TR/html/embedded-content-0.html#the-audio-element).
-**jSqncr**, buffer and play audio files with javascript
+####Update: This solution is now outdated and can be solved by directly accessing the [HTML5 Audio element](http://www.w3.org/TR/html/embedded-content-0.html#the-audio-element).
 
 ## Setup
-Include the the jSquncr.js in your project.
+To buffer and play audio files with javascript, include the the jSquncr.js in your project.
 ## Customizing your sounds
 Once the library is loaded, you will have access to jSqncr.sounds, a key-value store for semantic sound triggers. For example:
 
