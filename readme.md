@@ -1,7 +1,7 @@
 # jSqncr.js
 -----
 
-####Update: This solution is now outdated and can be solved by directly accessing the [HTML5 Audio element](http://www.w3.org/TR/html/embedded-content-0.html#the-audio-element).
+####Update: This solution is now depreciated and can be solved by directly accessing the [HTML5 Audio element](http://www.w3.org/TR/html/embedded-content-0.html#the-audio-element).
 
 ## Setup
 To buffer and play audio files with javascript, include the the jSquncr.js in your project.
