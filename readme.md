@@ -1,9 +1,11 @@
 # jSqncr.js
 -----
 
-####Update: This solution is now depreciated and can be solved by creating a new instance of the [HTML5 Audio element](http://www.w3.org/TR/html/embedded-content-0.html#the-audio-element):
+## Update
+
+This library is depreciated and can be solved by creating a new instance of the [HTML5 Audio element](http://www.w3.org/TR/html/embedded-content-0.html#the-audio-element):
 ```
-var audioTagInstance = new Audio()
+const audioTagInstance = new Audio();
 ```
 
 ## Setup
